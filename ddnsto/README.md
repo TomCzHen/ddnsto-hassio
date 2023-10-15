@@ -1,5 +1,7 @@
 # DDNSTO
 
+**注意: 本插件并非 DDNSTO 官方发布。**
+
 配置使用请查看 [https://doc.linkease.com/zh/guide/ddnsto/](https://doc.linkease.com/zh/guide/ddnsto/)
 
 ![Supports aarch64 Architecture][aarch64-shield]
