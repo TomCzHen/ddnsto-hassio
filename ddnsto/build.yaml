@@ -1,0 +1,6 @@
+build_from:
+  aarch64: ghcr.io/hassio-addons/base:14.2.2
+  amd64: ghcr.io/hassio-addons/base:14.2.2
+codenotary:
+  base_image: tom.czhen@gmail.com
+  signer: tom.czhen@gmail.com

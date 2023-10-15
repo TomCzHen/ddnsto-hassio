@@ -1,0 +1,11 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Start DDNSTO service
+# ==============================================================================
+
+DDNSTO_USER_TOKEN="$(bashio::config 'user_token')"
+DDNSTO_DEVICE_ID="$(bashio::config 'device_id')"
+
+bashio::log.info "Starting DDNSTO ..."
+
+exec ddnsto -u "${DDNSTO_USER_TOKEN}" -x ${DDNSTO_DEVICE_ID}
