@@ -1,4 +1,4 @@
-name: "DDNSTO For Hass.io"
+name: "DDNSTO"
 slug: ddnsto
 version: "3.0.5"
 description: "DDNSTO 是一款稳定、快速、简单易用的内网穿透工具"
